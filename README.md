@@ -1,3 +1,11 @@
+
+React ile gerçekleştirilen bu projede kullanıcıların yemek tarifi bulabilecekleri ve favori tariflerini saklayabilecekleri bir önyüz yaratılmıştır.Ayrıca Redux, Router gibi React kütüphaneleri kullanılmıştır. Kurs bilgileri resAPI'den çekilerek projede kullanılmıştır.
+
+Kullanılan resapi=https://www.themealdb.com/api.php
+
+Projenin kurulumu için: npm install npm start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
