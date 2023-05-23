@@ -1,5 +1,5 @@
 
-React ile gerçekleştirilen bu projede kullanıcıların yemek tarifi bulabilecekleri ve favori tariflerini saklayabilecekleri bir önyüz yaratılmıştır. P. Ayrıca Redux, Router gibi React kütüphaneleri kullanılmıştır. Kurs bilgileri resAPI'den çekilerek projede kullanılmıştır.
+React ile gerçekleştirilen bu projede kullanıcıların yemek tarifi bulabilecekleri ve favori tariflerini saklayabilecekleri bir önyüz yaratılmıştır.Ayrıca Redux, Router gibi React kütüphaneleri kullanılmıştır. Kurs bilgileri resAPI'den çekilerek projede kullanılmıştır.
 
 Kullanılan resapi=https://www.themealdb.com/api.php
 
