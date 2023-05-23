@@ -20,9 +20,9 @@ export default function Favorite() {
             <div className='row d-flex justify-content-center ' >
            
           {
-            toplam.map((item)=>{
+            toplam.map((item,index)=>{
              return(
-                <FavoriteMeal urun={item}></FavoriteMeal>
+                <FavoriteMeal key={index} urun={item}></FavoriteMeal>
              )
             })
           }

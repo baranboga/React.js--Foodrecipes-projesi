@@ -135,8 +135,8 @@ export default function Home() {
       <div className='mt-5' style={{ overflow: 'auto', margin: "auto" }}>
         <div className='row'>
           <div className='col d-flex'>
-            {attr && filtredMeal.map((item) => {
-              return <Filtred urun={item} />;
+            {attr && filtredMeal.map((item,index) => {
+              return <Filtred key={index} urun={item} />;
             })}
           </div>
         </div>
