@@ -15,19 +15,17 @@ export default function Favorite() {
 
 
   return (
-    <div>
-        <div className='row justify-content-center'  style={{ marginLeft: "100px", overflowX: "auto" }}>
-            <div className='row d-flex justify-content-center ' >
-           
-          {
-            toplam.map((item,index)=>{
-             return(
-                <FavoriteMeal key={index} urun={item}></FavoriteMeal>
-             )
-            })
-          }
-          </div>
-          </div>
+<div className='row justify-content-center' style={{ marginLeft: "100px", overflowX: "auto" }}>
+  <div className='row d-flex justify-content-center'>
+    <div className='col-12'>
+    <div className='row'>
+  {toplam.map((item, index) => (
+    <FavoriteMeal key={index} urun={item}></FavoriteMeal>
+  ))}
+</div>
     </div>
+  </div>
+</div>
+
   )
 }
