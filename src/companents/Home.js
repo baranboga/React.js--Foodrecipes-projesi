@@ -91,9 +91,9 @@ export default function Home() {
     <h4 style={{ fontSize: "50px", fontFamily: 'cursive' }}>Categories</h4>
   </div>
 
-  <div className="container">
+  <div className="container mt-5">
   <div className="row justify-content-center ms-5" >
-    <div className="col-12 d-flex flex-wrap">
+    <div className="col-12 d-flex flex-wrap" style={{justifyContent:"space-between"}}>
       <button id='a' type="button" className="btn btn-dark me-2 mb-2" style={{ borderRadius: "10px" }} onClick={(e) => {
         const buttonElement = document.getElementById("a");
         const buttonText = buttonElement.innerText;
